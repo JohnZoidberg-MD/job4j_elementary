@@ -8,11 +8,6 @@ public class Point {
         double fourth = Math.pow(second, 2);
         double fifth = third + fourth;
         double rls = Math.sqrt(fifth);
-        // или одной формулой (из задании не указано как нужно написать для сдачи задачи):
-        // double rls = Math.sqrt(Math.pow(x2 - x1, 2) + Math.pow(y2 - y1, 2));
-        // 2 пункт задания гласит: "с различными аргументами", а в примере значения переменных в выводе статичные,
-        // поэтому считаю верным доработать не только метод "main".
-        System.out.print("Расстояние между точками (" + x1 + ", " + x2 + ") и (" + y1 + ", " + y2 + ") = ");
         return rls;
     }
 

@@ -13,13 +13,7 @@ public class MathCalculator {
     }
 
     public static double sumAllFunc(double first, double second) {
-        double funcSum = sum(first, second);
-        double funcDifference = difference(first, second);
-        double funcMultiply = multyply(first, second);
-        double funcDiv = div(first, second);
-        return funcSum + funcDifference + funcMultiply + funcDiv;
-        // Или в одну строчку (но мне показолось что так менее читабельно):
-        //return sum(first, second) + difference(first, second) + multyply(first, second) + div(first, second);
+                return sumAndMultiply(first, second) + differenceAndDiv(first, second);
     }
 
     public static void main(String[] args) {

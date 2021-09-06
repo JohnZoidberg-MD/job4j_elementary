@@ -1,7 +1,8 @@
-package ru.job4j.loop;
+package test.java.job4j.loop;
 
 import org.junit.Assert;
 import org.junit.Test;
+import ru.job4j.loop.Counter;
 
 public class CounterTest {
     @Test

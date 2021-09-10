@@ -1,7 +1,7 @@
 package ru.job4j.array;
 
-import org.junit.Test;
 import org.junit.Assert;
+import org.junit.Test;
 
 public class FindLoopTest {
 
@@ -30,6 +30,15 @@ public class FindLoopTest {
         int el = -6;
         int result = FindLoop.indexOf(data, el);
         int expected = 3;
+        Assert.assertEquals(expected, result);
+    }
+
+    @Test
+    public void whenArrayHas14ThenM1() {
+        int[] data = {5, 4, 3, -6, 8, 7};
+        int el = 14;
+        int result = FindLoop.indexOf(data, el);
+        int expected = -1;
         Assert.assertEquals(expected, result);
     }
 }

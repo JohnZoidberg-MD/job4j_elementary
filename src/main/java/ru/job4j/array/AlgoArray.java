@@ -2,13 +2,13 @@ package ru.job4j.array;
 
 public class AlgoArray {
     public static int[] sortArray(int[] mass) {
-        for (int i2 = 0; i2 < mass.length - 1; i2++) {
-            for (int i1 = 0; i1 < mass.length; i1++) {
-                if (i1 + 1 < mass.length) {
-                    if (mass[i1] > mass[i1 + 1]) {
-                        int temp = mass[i1];
-                        mass[i1] = mass[i1 + 1];
-                        mass[i1 + 1] = temp;
+        for (int j = 0; j < mass.length - 1; j++) {
+            for (int i = 0; i < mass.length; i++) {
+                if (i + 1 < mass.length) {
+                    if (mass[i] > mass[i + 1]) {
+                        int temp = mass[i];
+                        mass[i] = mass[i + 1];
+                        mass[i + 1] = temp;
                     }
                 }
             }

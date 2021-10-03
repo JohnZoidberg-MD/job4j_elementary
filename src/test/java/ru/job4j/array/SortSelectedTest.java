@@ -20,6 +20,7 @@ public class SortSelectedTest {
         int[] expected = new int[]{0, 1, 3, 7, 9};
         Assert.assertArrayEquals(expected, result);
     }
+
     @Test
     public void whenSort3() {
         int[] data = new int[]{3, 1, 2};

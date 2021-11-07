@@ -4,7 +4,6 @@ import org.junit.Test;
 import org.junit.Assert;
 import ru.job4j.condition.DummyBot;
 
-
 public class DummyBotTest {
 
     @Test

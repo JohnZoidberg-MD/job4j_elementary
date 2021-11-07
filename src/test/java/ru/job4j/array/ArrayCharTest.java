@@ -28,3 +28,4 @@ public class ArrayCharTest {
         Assert.assertFalse(result);
     }
 }
+
